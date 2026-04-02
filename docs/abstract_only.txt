@@ -1,0 +1,26 @@
+Acute coronary Syndrome (ACS) is a leading cause of mortality and morbidity in the Arabian Gulf. In this
+study, the in-hospital mortality among patients admitted with ACS to Arabian Gulf hospitals is predicted
+using a comprehensive modeling framework that combines powerful machine learning methods such as
+Support Vector Machine (SVM), Naïve Bayes (NB), Artificial Neural Networks (NN), and Decision Trees
+(DT). The performance of the machine learning methods is compared to that of the performance of a
+commonly used statistical method, namely, logistic regression (LR). The study follows the current practice
+of computing mortality risk using risk scores such as the Global Registry of Acute Coronary Events
+(GRACE) score which has not been validated for Arabian Gulf patients. Cardiac registry data of 7000
+patients from 65 hospitals located in Arabian Gulf countries are used for the study. A k-fold (k=10)
+validation is utilized to generate training and validation subsamples from the dataset and specialized
+methods such as Random Under Sampling (RUS) and Synthetic Minority Over Sampling Technique
+(SMOTE) are employed to overcome the data imbalance problem. The methods, RUS and SMOTE are
+essential for this study since the imbalanced data are common within in-hospital survival in contrast to in-
+hospital mortality in the GRACE dataset. This aspect of the use of balancing methods to remedy the problem
+of imbalanced data is often ignored. The results from the analysis showed that the performance of all
+prediction models (SV, NB, NN, DT) measured using standard prediction metric, Area-Under-Curve
+(AUC) was found superior to LR. Further, the specificity estimates for all methods improved using under
+sampling and over sampling methods, RUS and SMOTE, respectively. Another salient feature of the study
+is the application of Information fusion (IF) based technique for sensitivity analysis. The IF method
+synthesizes all methods to collectively identify the most important predictors or medical conditions. Finally,
+another method is implemented to further enhance the analysis by grouping the predictors using fuzzy c-
+mean clustering. Thus, the research not only proposes a comprehensive hybrid approach yielding superior
+prediction outcomes, but also presented a unified robust collective framework consisting of unbalancing
+treatments, information fusion, and fuzzy c-clustering for identification of the predictors for the in-hospital
+mortality due to ACS. The insights into the predictors provided by the study can positively impact the
+mortality rates in ACS patients.
